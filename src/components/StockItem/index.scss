@@ -1,0 +1,13 @@
+.stock-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  
+    &.significant {
+      color: rgb(99, 230, 99);
+    }
+  
+    &.negative {
+      color: rgb(211, 88, 88);
+    }
+  }
+  
