@@ -18,7 +18,7 @@ To run the Stock Monitoring Dashboard, follow the steps below to clone the repos
 3. Navigate into the cloned project directory:
 
    ```bash
-   cd stock-dashboard
+   cd Stock-Monitoring-Dashboard
    ```
 
 ### Step 2: Install Dependencies
