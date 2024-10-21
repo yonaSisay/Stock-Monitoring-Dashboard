@@ -1,18 +1,59 @@
+---
+
 # Stock Monitoring Dashboard
-In the project directory, you can run:
 
-**First**, start the JSON server to mock the backend. Run this command in the terminal:
+## Getting Started
 
-```bash
-json-server --watch db.json --port 5000 or `npm run serve`
+To run the Stock Monitoring Dashboard, follow the steps below to clone the repository, install dependencies, and start the application.
 
-**Second**, open separate terminal and run the following command to run the frontend:
+### Step 1: Clone the Repository
 
-### `npm start`
+1. Open your terminal.
+2. Run the following command to clone the repository:
 
-Runs the app in the development mode.
+   ```bash
+   git clone  https://github.com/yonaSisay/Stock-Monitoring-Dashboard.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Navigate into the cloned project directory:
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+   ```bash
+   cd stock-dashboard
+   ```
+
+### Step 2: Install Dependencies
+
+1. Run the following command to install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Step 3: Start the JSON Server
+
+1. In the terminal, run the following command to start the JSON server and mock the backend:
+
+   ```bash
+   json-server --watch db.json --port 5000
+   ```
+
+   Alternatively, you can run:
+
+   ```bash
+   npm run serve
+   ```
+
+### Step 4: Run the Frontend Application
+
+1. Open a **separate terminal** (keeping the JSON server running).
+2. In the same project directory, run the following command to start the frontend:
+
+   ```bash
+   npm start
+   ```
+
+### Accessing the Dashboard
+
+Once the frontend is running, you can view the application in your browser by navigating to:
+
+[http://localhost:3000](http://localhost:3000)
